@@ -1,0 +1,63 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#pieDePagina{
+    background-color: rgb(255, 77, 77);
+}
+.espacio{
+    margin-top: 0.5em;
+}
+section div fieldset{
+    width: 40vh;
+}
+.fondo{
+    background-image: url("../images/provfutbolfinal.jpg");
+    background-size: cover;
+    background-position: 0,70%;
+    height: 50vh;
+    position: sticky;
+}
+.claseNoticia{
+    background-color: rgb(190, 26, 26);
+    color: white;
+    display: inline;
+}
+.overflow{
+    width: 800px;
+    height: 300px;
+    overflow: scroll;
+}
+p{
+    font-size: 1.2rem;
+}
+.displays h2{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+ol{
+    padding-bottom: 1.5rem;
+}
+.pFooter{
+    text-align:right;
+}
+.logo{
+    width:100px;
+    height:50px;
+}
+#imgPF{
+    width:200px;
+    height:300px;
+}
+#imgPB{
+    width:300px;
+    height:300px;
+}
+#iframeYoutube{
+    width:560px;
+    height:315px;
+}
