@@ -4,77 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</title>
+    <link rel="stylesheet" href="./../styles/bootstrap.min.css">
     <link rel="stylesheet" href="./../styles/style.css">
 </head>
 <body>
-    <header>
-        <section>
-            <a href="./../index.html">
-                <img src="../images/logonob.png" alt="logoclub" class="logo">
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="./../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="./../images/logonob.png" class="logo">
             </a>
-            <h1>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</h1>
-            <hr>
-            <nav>
-                <ul>
-                    <li><a href="./../index.html">Inicio</a></li>
-                    <li><a href="./institucional.html">Institucional</a></li>
-                    <li><a href="./socios.html">Socios</a></li>
-                    <li><a href="./deportes.html">Deportes</a></li>
-                    <li><a href="./multimedia.html">Multimedia</a></li>
-                </ul>
-            </nav>
-            <hr>
-        </section>
-    </header>
-    <main>
-        <h2>Deportes</h2>
-        <section>
-            <div>
-                <h3>Básquet</h3>
-                <ol>
-                    <li>Contacto: 3572666666</li>
-                    <li>Entrenadores
-                        <ul>
-                            <li>Mosquitos y Premini: Cecilia Re y Lautaro Gomez</li>
-                            <li>Mini y U13: Alvaro Bustamante y Benjamin Tavolini</li>
-                            <li>U15: Levis Felippa</li>
-                        </ul>
-                    </li>
-                    <li>Cuota Deportiva: $10.000</li>
-                </ol>
-                <h3>Bochas</h3>
-                <ol>
-                    <li>Contacto: 3572666667</li>
-                    <li>Entrenador: Luis Miretti</li>
-                    <li>Cuota Deportiva: $12.000</li>
-                </ol>
-                <h3>Fútbol</h3>
-                <ol>
-                    <li>Contacto: 3572666668</li>
-                    <li>Entrenadores
-                        <ul>
-                            <li>Escuelita: Juan Cruz Videla</li>
-                            <li>Octava y Séptima: Alvano Rodriguez</li>
-                            <li>Sexta, Quinta y Cuarta: Eric Cabral</li>
-                            <li>Reserva y Primera: Carlos Oscare</li>
-                        </ul>
-                    </li>
-                    <li>Cuota Deportiva: $6.000</li>
-                </ol>
-                <h3>Tenis</h3>
-                <ol>
-                    <li>Contacto: 3572666669</li>
-                    <li>Entrenador: Marcos Gonzalez</li>
-                    <li>Cuota Deportiva: $15.000</li>
-                </ol>
+            <h1 class="tituloheader">Club Newell's Old Boys Laguna Larga</h1>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="./../index.html" class="nav-link px-2 text-secondary">INICIO</a></li>
+              <li><a href="./institucional.html" class="nav-link px-2 text-white">INSTITUCIONAL</a></li>
+              <li><a href="./socios.html" class="nav-link px-2 text-white">SOCIOS</a></li>
+              <li><a href="./deportes.html" class="nav-link px-2 text-white">DEPORTES</a></li>
+              <li><a href="./multimedia.html" class="nav-link px-2 text-white">MULTIMEDIA</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-secondary" placeholder="Buscar..." aria-label="Search">
+            </form>
+    
+            
+          </div>
+        </div>
+      </header>
+    <main class="container altmaindep">
+        <div class="row">
+            <div class="col">
+                <h2 class="pt-4 border-bottom">Deportes</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button  collapsed desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Básquet
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol class="list-group">
+                                <li class="list-group-item">Contacto: 3572666666</li>
+                                <li class="list-group-item">Entrenadores
+                                    <ul>
+                                        <li>Mosquitos y Premini: Cecilia Re y Lautaro Gomez</li>
+                                        <li>Mini y U13: Alvaro Bustamante y Benjamin Tavolini</li>
+                                        <li>U15: Levis Felippa</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item">Cuota Deportiva: $10.000</li>
+                            </ol>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Bochas
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol class="list-group">
+                                <li class="list-group-item">Contacto: 3572666667</li>
+                                <li class="list-group-item">Entrenador: Luis Miretti</li>
+                                <li class="list-group-item">Cuota Deportiva: $12.000</li>
+                            </ol>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Fútbol
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol class="list-group">
+                                <li class="list-group-item">Contacto: 3572666668</li>
+                                <li class="list-group-item">Entrenadores
+                                    <ul>
+                                        <li>Escuelita: Juan Cruz Videla</li>
+                                        <li>Octava y Séptima: Alvano Rodriguez</li>
+                                        <li>Sexta, Quinta y Cuarta: Eric Cabral</li>
+                                        <li>Reserva y Primera: Carlos Oscare</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item">Cuota Deportiva: $6.000</li>
+                            </ol>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed desplegable" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Tenis
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ol class="list-group">
+                                    <li class="list-group-item">Contacto: 3572666669</li>
+                                    <li class="list-group-item">Entrenador: Marcos Gonzalez</li>
+                                    <li class="list-group-item">Cuota Deportiva: $15.000</li>
+                                </ol>
+                            </div>
+                        </div>
+                      </div>
+                </div>
             </div>
-        </section>
+        </div>
     </main>
-    <footer id="pieDePagina">
-        <p class="pFooter">
-            <a href="https://www.instagram.com/noblagunalarga_ok/" target="_blank">Instagram</a>
-        </p>
-        <p>Copyright © 2024 Sitio oficial Club Newell's Old Boys</p>
-    </footer>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top pFooter">
+        <div class="col-md-5 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-white">©2024 Sitio Oficial Club Newell's Old Boys Laguna Larga</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-3" >
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100063672332139" target="_blank"><img src="./../images/fb.svg" class="imagenfooter"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/noblagunalarga_ok/" target="_blank"><img src="./../images/ig.svg" class="imagenfooter"></a></li>
+        </ul>
+      </footer>
 </body>
+<script src="./../styles/bootstrap.bundle.min.js"></script>
 </html>

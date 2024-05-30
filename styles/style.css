@@ -75,3 +75,10 @@ ol{
 .imagenfooter{
     width: 25px;
 }
+.altmaindep{
+    height: 75vh;
+}
+
+.desplegable:not(.collapsed){
+    background-color: #ffb6b6;
+}
