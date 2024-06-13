@@ -1,47 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</title>
-    <link rel="stylesheet" href="./../styles/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="multimedia club newells old boys laguna larga">
+        <meta name="keywords" content="club, nob, laguna larga, newells, futbol, basquet, fotos, videos">
+        <title>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" href="../images/favicon.ico">
+    </head>
 <body>
-    <header>
-        <section>
-            <a href="./../index.html">
-                <img src="../images/logonob.png" alt="logoclub" class="logo">
-            </a>
-            <h1>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</h1>
-            <hr>
-            <nav>
-                <ul>
-                    <li><a href="./../index.html">Inicio</a></li>
-                    <li><a href="./institucional.html">Institucional</a></li>
-                    <li><a href="./socios.html">Socios</a></li>
-                    <li><a href="./deportes.html">Deportes</a></li>
-                    <li><a href="./multimedia.html">Multimedia</a></li>
-                </ul>
-            </nav>
-            <hr>
-        </section>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div>
+                <div class="row">
+                    <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none diplayb">
+                    <img src="../images/logonob.png" class="logo">
+                    </a>
+                </div>
+                <div class="row me-2">
+                    <h1 class="tituloheader">Club Newell's Old Boys Laguna Larga</h1>
+                </div>
+            </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../index.html" class="nav-link px-2 text-secondary navlinks">INICIO</a></li>
+              <li><a href="./institucional.html" class="nav-link px-2 text-white navlinks">INSTITUCIONAL</a></li>
+              <li><a href="./socios.html" class="nav-link px-2 text-white navlinks">SOCIOS</a></li>
+              <li><a href="./deportes.html" class="nav-link px-2 text-white navlinks">DEPORTES</a></li>
+              <li><a href="./multimedia.html" class="nav-link px-2 text-white navlinks">MULTIMEDIA</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-secondary sombraboton" placeholder="Buscar..." aria-label="Search">
+            </form>
+          </div>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Imágenes</h2>
-            <img src="../images/provfutbol.jpg" alt="ProvincialFutbol" id="imgPF">
-            <img src="../images/provbasquet.jpg" alt="ProvincialBasquet" id="imgPB">
-        </section>
-        <section>
-            <h2>Videos</h2>
-            <iframe id="iframeYoutube" src="https://www.youtube.com/embed/93rxKIQLdm8?si=84TJlQ7hHbcLFBBX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
+        <div class="row">
+            <div class="col">
+                <div class="container mt-5">
+                    <h2 class="text-center mb-5">Galería de Imágenes</h2>
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="../images/provfutbolgrande.jpg" alt="provfutbol">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/cuartaNOBSemi2024.jpg" alt="cuartaNOBSemi2024">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/octava2024camp.jpg" alt="octava2024camp">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/quintanob.jpg" alt="quintanob">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/mosquitosluque.jpg" alt="mosquitosluque">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/preminiNOBIND.jpg" alt="preminiNOBIND">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/premininobvelez.jpg" alt="premininobvelez">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="../images/Preminipolinob2024.jpg" alt="Preminipolinob2024">
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container mt-5">
+                    <h2 class="text-center mb-5">Galería de Videos</h2>
+                    <div class="video-gallery">
+                        <div class="video-gallery-item">
+                            <div class="iframe-container">
+                                <iframe id="iframeYoutube" src="https://www.youtube.com/embed/93rxKIQLdm8?si=84TJlQ7hHbcLFBBX" title="Final Torneo 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-gallery-item">
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/dHqXpMsjI6Y?si=HZRwNSIeBYAmyxem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-gallery-item">
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/oFFeweKbpQI" title="Fecha 4 Torneo ABO Newell&#39;s - Chañares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-gallery-item">
+                            <div class="iframe-container">
+                                <iframe width="366" height="651" src="https://www.youtube.com/embed/F8-ZS8F0v3w" title="3º Encuentro de Mosquitos en ADC Luque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer id="pieDePagina">
-        <p class="pFooter">
-            <a href="https://www.instagram.com/noblagunalarga_ok/" target="_blank">Instagram</a>
-        </p>
-        <p>Copyright © 2024 Sitio oficial Club Newell's Old Boys</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+        <div class="col-md-5 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-white">©2024 Sitio Oficial Club Newell's Old Boys Laguna Larga</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-3" >
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100063672332139" target="_blank"><img src="../images/fb.svg"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/noblagunalarga_ok/" target="_blank"><img src="../images/ig.svg"></a></li>
+        </ul>
     </footer>
 </body>
 </html>

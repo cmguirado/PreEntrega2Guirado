@@ -3,87 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="socios club newells old boys laguna larga">
+    <meta name="keywords" content="club, nob, laguna larga, newells, futbol, basquet, asociate">
     <title>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</title>
-    <link rel="stylesheet" href="./../styles/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/favicon.ico">
 </head>
 <body >
-    <header>
-        <section>
-            <a href="./../index.html">
-                <img src="../images/logonob.png" alt="logoclub" class="logo">
-            </a>
-            <h1>Club Atl. y Biblioteca Newell's Old Boys Laguna Larga</h1>
-            <hr>
-            <nav>
-                <ul>
-                    <li><a href="./../index.html">Inicio</a></li>
-                    <li><a href="./institucional.html">Institucional</a></li>
-                    <li><a href="./socios.html">Socios</a></li>
-                    <li><a href="./deportes.html">Deportes</a></li>
-                    <li><a href="./multimedia.html">Multimedia</a></li>
-                </ul>
-            </nav>
-            <hr>
-        </section>
-    </header>
-    <main>
-        <h2>Socios</h2>
-        <section>
-            <h3>Beneficios</h3>
-            <ul>
-                <li>20% descuento en uso de la pileta</li>
-                <li>40% descuento en alquiler de pileta</li>
-                <li>10% descuento en entradas a las canchas</li>
-                <li>20% descuento en comercios adheridos</li>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div>
+                <div class="row">
+                    <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none diplayb">
+                    <img src="../images/logonob.png" class="logo">
+                    </a>
+                </div>
+                <div class="row me-2">
+                    <h1 class="tituloheader">Club Newell's Old Boys Laguna Larga</h1>
+                </div>
+            </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../index.html" class="nav-link px-2 text-secondary navlinks">INICIO</a></li>
+              <li><a href="./institucional.html" class="nav-link px-2 text-white navlinks">INSTITUCIONAL</a></li>
+              <li><a href="./socios.html" class="nav-link px-2 text-white navlinks">SOCIOS</a></li>
+              <li><a href="./deportes.html" class="nav-link px-2 text-white navlinks">DEPORTES</a></li>
+              <li><a href="./multimedia.html" class="nav-link px-2 text-white navlinks">MULTIMEDIA</a></li>
             </ul>
-        </section>
-        <section>
-            <h3>Asociate</h3>
-            <form action="" method="post">
-                <div class="espacio">
-                    <label for="nombres">Nombres</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombres" required>
-                </div>
-                <div class="espacio">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-                </div>
-                <div class="espacio">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="espacio">
-                    <fieldset>
-                        <legend>Sexo</legend>
-                        <input type="radio" name="Genero" value="mujer" id="">
-                        <label for="mujer">Mujer</label>
-                        <input type="radio" name="Genero" value="hombre" id="">
-                        <label for="hombre">Hombre</label>
-                        <input type="radio" name="Genero" value="nobinario" id="">
-                        <label for="nobinario">No binario</label>
-                    </fieldset>
-                </div>
-                <div class="espacio">
-                    <label for="deporteFavorito">Deporte Favorito</label>
-                    <select name="deporteFavorito" id="">
-                        <option value="Basquet">Básquet</option>
-                        <option value="Futbol">Fútbol</option>
-                        <option value="Bochas">Bochas</option>
-                        <option value="Tenis">Tenis</option>
-                    </select>
-                </div>
-                <div class="espacio">
-                    <input type="submit">
-                    <input type="reset">
-                </div>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-secondary sombraboton" placeholder="Buscar..." aria-label="Search">
             </form>
-        </section>
+          </div>
+        </div>
+    </header>
+    <main class="container altmaindep">
+        <h2 class="pt-4 border-bottom">Socios</h2>
+        <div class="row">
+            <div class="col">
+            <section>
+                <h3>Beneficios</h3>
+                <ul>
+                    <li>20% descuento en uso de la pileta</li>
+                    <li>40% descuento en alquiler de pileta</li>
+                    <li>10% descuento en entradas a las canchas</li>
+                    <li>20% descuento en comercios adheridos</li>
+                </ul>
+            </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Asociate</h3>
+                <form method="post" action="">
+                    <div class="form-group">
+                        <label for="nombre"><b>Nombres</b></label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido"><b>Apellido</b></label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo"><b>Sexo (opcional)</b></label>
+                        <select class="form-control" id="sexo">
+                            <option value="" disabled selected>Selecciona tu sexo</option>
+                            <option value="male">Masculino</option>
+                            <option value="female">Femenino</option>
+                            <option value="other">Otro</option>
+                            <option value="prefer_not_to_say">Prefiero no decirlo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="deporte"><b>Deporte Favorito</b></label>
+                        <select class="form-control" id="deporte" required>
+                            <option value="" disabled selected>Selecciona tu deporte favorito</option>
+                            <option value="futbol">Fútbol</option>
+                            <option value="basketball">Baloncesto</option>
+                            <option value="tenis">Tenis</option>
+                            <option value="swimming">Natación</option>
+                            <option value="bochas">Bochas</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-secondary mt-2 verdetalles">Enviar</button>
+                </form>
+            </div>
+        </div>
     </main>
-    <footer id="pieDePagina">
-        <p class="pFooter">
-            <a href="https://www.instagram.com/noblagunalarga_ok/" target="_blank">Instagram</a>
-        </p>
-        <p>Copyright © 2024 Sitio oficial Club Newell's Old Boys</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+        <div class="col-md-5 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-white">©2024 Sitio Oficial Club Newell's Old Boys Laguna Larga</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-3" >
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100063672332139" target="_blank"><img src="../images/fb.svg"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/noblagunalarga_ok/" target="_blank"><img src="../images/ig.svg"></a></li>
+        </ul>
     </footer>
 </body>
 </html>
