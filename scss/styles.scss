@@ -16,9 +16,6 @@
     height: 500px; 
     object-fit: cover; 
 }
-//.imagendestacada{
-//    width: 100%;
-//    height: 35%;
 .listadeportes{
     border-color: #e72222;
     box-shadow: nth($paletacolores,1)
@@ -32,13 +29,11 @@
     scale: 1.1;
 }
 .formimput:focus{
-    border-color: #e03939!important;
+    border-color: #e03939;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 1, 1, 0.6);
 }
 .sombraboton:focus{
     @extend .formimput, :focus;
-    //border-color: #e03939!important;
-    //box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 1, 1, 0.6);
     color: white;
     font-weight: 800;
 }
@@ -234,4 +229,8 @@
     text-align: left; 
     padding: 0; 
     margin: 0; 
+}
+.imagenotiredonda{
+    width:150px;
+    height:150px;
 }

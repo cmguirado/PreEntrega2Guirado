@@ -50,7 +50,7 @@ footer ul li {
 }
 
 .formimput:focus, .sombraboton:focus {
-  border-color: #e03939 !important;
+  border-color: #e03939;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 1, 1, 0.6);
 }
 
@@ -279,6 +279,11 @@ footer ul li {
   text-align: left;
   padding: 0;
   margin: 0;
+}
+
+.imagenotiredonda {
+  width: 150px;
+  height: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */
